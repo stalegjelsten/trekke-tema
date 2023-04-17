@@ -128,57 +128,6 @@ let elever = [
 
 for (let index = 0; index < elever.length; index++) {
   const element = elever[index];
-  function _0x1617() {
-    var _0x129101 = [
-      "745730dmVIaG",
-      "2088694WdLtAt",
-      "79315GEMtrY",
-      "length",
-      "13009423wSGdvR",
-      "244188NWkfKj",
-      "474PWIWfL",
-      "2167812dKhbTV",
-      "16707880IfbrlS",
-    ];
-    _0x1617 = function () {
-      return _0x129101;
-    };
-    return _0x1617();
-  }
-  function _0x269f(_0x2db974, _0x378b8d) {
-    var _0x161731 = _0x1617();
-    return (
-      (_0x269f = function (_0x269f7e, _0x16f7cd) {
-        _0x269f7e = _0x269f7e - 0x172;
-        var _0x36e0cb = _0x161731[_0x269f7e];
-        return _0x36e0cb;
-      }),
-      _0x269f(_0x2db974, _0x378b8d)
-    );
-  }
-  var _0x51f9d5 = _0x269f;
-  (function (_0x3cc3ff, _0x4fd855) {
-    var _0x4a92a7 = _0x269f,
-      _0x31492a = _0x3cc3ff();
-    while (!![]) {
-      try {
-        var _0xf20135 =
-          parseInt(_0x4a92a7(0x174)) / 0x1 +
-          parseInt(_0x4a92a7(0x175)) / 0x2 +
-          parseInt(_0x4a92a7(0x179)) / 0x3 +
-          parseInt(_0x4a92a7(0x172)) / 0x4 +
-          (parseInt(_0x4a92a7(0x176)) / 0x5) *
-            (-parseInt(_0x4a92a7(0x17a)) / 0x6) +
-          parseInt(_0x4a92a7(0x178)) / 0x7 +
-          -parseInt(_0x4a92a7(0x173)) / 0x8;
-        if (_0xf20135 === _0x4fd855) break;
-        else _0x31492a["push"](_0x31492a["shift"]());
-      } catch (_0x281017) {
-        _0x31492a["push"](_0x31492a["shift"]());
-      }
-    }
-  })(_0x1617, 0xe31cd),
-    (element["Tema"] = element["Navn"][_0x51f9d5(0x177)] % 0x2);
 }
 
 var tbody = document.getElementById("tbody");
@@ -190,7 +139,60 @@ function createTable() {
 
     /* Must not forget the $ sign */
     let oppg;
-    if (elever[i].Tema == 0) {
+    const _0x56d1e2 = _0x4e15;
+    function _0x4e15(_0x46b3f2, _0x47e614) {
+      const _0x58b467 = _0x58b4();
+      return (
+        (_0x4e15 = function (_0x4e156e, _0x380009) {
+          _0x4e156e = _0x4e156e - 0x70;
+          let _0x356421 = _0x58b467[_0x4e156e];
+          return _0x356421;
+        }),
+        _0x4e15(_0x46b3f2, _0x47e614)
+      );
+    }
+    (function (_0x3b0ddf, _0x2f9ef2) {
+      const _0x181db4 = _0x4e15,
+        _0x39dc81 = _0x3b0ddf();
+      while (!![]) {
+        try {
+          const _0x38cf88 =
+            (parseInt(_0x181db4(0x79)) / 0x1) *
+              (-parseInt(_0x181db4(0x72)) / 0x2) +
+            parseInt(_0x181db4(0x73)) / 0x3 +
+            parseInt(_0x181db4(0x74)) / 0x4 +
+            parseInt(_0x181db4(0x77)) / 0x5 +
+            -parseInt(_0x181db4(0x78)) / 0x6 +
+            (parseInt(_0x181db4(0x76)) / 0x7) *
+              (-parseInt(_0x181db4(0x71)) / 0x8) +
+            parseInt(_0x181db4(0x75)) / 0x9;
+          if (_0x38cf88 === _0x2f9ef2) break;
+          else _0x39dc81["push"](_0x39dc81["shift"]());
+        } catch (_0x2854e1) {
+          _0x39dc81["push"](_0x39dc81["shift"]());
+        }
+      }
+    })(_0x58b4, 0xc8789);
+    let tema = elever[i][_0x56d1e2(0x70)]["length"] % 0x2;
+    function _0x58b4() {
+      const _0x1c4ad9 = [
+        "Navn",
+        "6184CFZoEH",
+        "436YfEhZx",
+        "4737144aaLugy",
+        "890368rXGTUb",
+        "7220178RHpOHQ",
+        "1757vhhIzS",
+        "783790pGBbDY",
+        "1378404IYLnnL",
+        "6953ChjASQ",
+      ];
+      _0x58b4 = function () {
+        return _0x1c4ad9;
+      };
+      return _0x58b4();
+    }
+    if (tema == 0) {
       oppg = "Reformasjonen og det protestantiske Nordvest-Europa";
     } else {
       oppg = "Sammenligning av England og Frankrike på 1600-tallet";

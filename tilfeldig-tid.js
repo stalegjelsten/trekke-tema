@@ -25,11 +25,6 @@ let elever = [
     Rom: "A2007",
   },
   {
-    Tid: "24.04.23 13:45",
-    Navn: "Sivert",
-    Rom: "Klasserom F-bygget",
-  },
-  {
     Tid: "24.04.23 14:00",
     Navn: "Mari",
     Rom: "Klasserom F-bygget",
@@ -117,6 +112,11 @@ let elever = [
   {
     Tid: "08.05.23 14:00",
     Navn: "Julie",
+    Rom: "Klasserom F-bygget",
+  },
+  {
+    Tid: "31.12.99 08:45",
+    Navn: "Sivert",
     Rom: "Klasserom F-bygget",
   },
   {

@@ -30,49 +30,14 @@ let elever = [
     Rom: "Klasserom F-bygget",
   },
   {
-    Tid: "24.04.23 14:15",
-    Navn: "Eivind",
-    Rom: "Klasserom F-bygget",
-  },
-  {
     Tid: "28.04.23 08:15",
     Navn: "Signe",
-    Rom: "A2007",
-  },
-  {
-    Tid: "28.04.23 08:30",
-    Navn: "Oline",
     Rom: "A2007",
   },
   {
     Tid: "28.04.23 08:45",
     Navn: "Leo",
     Rom: "A2007",
-  },
-  {
-    Tid: "28.04.23 09:00",
-    Navn: "Ellen",
-    Rom: "A2007",
-  },
-  {
-    Tid: "28.04.23 09:15",
-    Navn: "Rikke",
-    Rom: "A2007",
-  },
-  {
-    Tid: "28.04.23 09:30",
-    Navn: "Sindre",
-    Rom: "A2007",
-  },
-  {
-    Tid: "04.05.23 11:00",
-    Navn: "Selma",
-    Rom: "Klasserom F-bygget",
-  },
-  {
-    Tid: "04.05.23 11:15",
-    Navn: "Sara",
-    Rom: "Klasserom F-bygget",
   },
   {
     Tid: "05.05.23 08:15",
@@ -123,6 +88,41 @@ let elever = [
     Tid: "31.12.99 08:45",
     Navn: "Elisabeth",
     Rom: "A2007",
+  },
+  {
+    Tid: "31.12.99 08:45",
+    Navn: "Oline",
+    Rom: "A2007",
+  },
+  {
+    Tid: "31.12.99 08:45",
+    Navn: "Ellen",
+    Rom: "A2007",
+  },
+  {
+    Tid: "31.12.99 08:45",
+    Navn: "Eivind",
+    Rom: "Klasserom F-bygget",
+  },
+  {
+    Tid: "31.12.99 08:45",
+    Navn: "Rikke",
+    Rom: "A2007",
+  },
+  {
+    Tid: "31.12.99 08:45",
+    Navn: "Sindre",
+    Rom: "A2007",
+  },
+  {
+    Tid: "31.12.99 08:45",
+    Navn: "Selma",
+    Rom: "Klasserom F-bygget",
+  },
+  {
+    Tid: "31.12.99 08:45",
+    Navn: "Sara",
+    Rom: "Klasserom F-bygget",
   },
 ];
 

@@ -126,10 +126,6 @@ let elever = [
   },
 ];
 
-for (let index = 0; index < elever.length; index++) {
-  const element = elever[index];
-}
-
 var tbody = document.getElementById("tbody");
 
 function createTable() {
@@ -214,15 +210,43 @@ function createTable() {
       "<td>" +
       elever[i].Rom +
       "</td>" +
-      "<td>";
+      '<td id="' +
+      elever[i].Navn +
+      '">';
     now = new Date();
     //   now = new Date("2023-04-28T08:42:00");
-    if (tid - now < 15 * 60 * 1000) {
+    let lag_konfetti = false;
+    if (tid - now < 15 * 60 * 1000 && tid - now > 14.8 * 60 * 1000) {
+      lag_konfetti = true;
+      tr += oppg + "</td></tr>";
+    } else if (tid - now < 15 * 60 * 1000) {
       tr += oppg + "</td></tr>";
     } else {
       tr += "</td></tr>";
     }
     tbody.innerHTML += tr;
+
+    function conf() {
+      let element = document.getElementById(elever[i].Navn);
+      let w = window.innerWidth;
+      let h = window.innerHeight;
+      let coords = {
+        x:
+          element.getClientRects()[0].x + element.getClientRects()[0].width / 2,
+        y: element.getClientRects()[0].y + element.getClientRects()[0].height,
+      };
+      confetti({
+        particleCount: 200,
+        spread: 70,
+        gravity: 0.5,
+        ticks: 400,
+        origin: { x: coords.x / w, y: coords.y / h },
+      });
+    }
+
+    if (lag_konfetti) {
+      conf();
+    }
   }
 }
 createTable();

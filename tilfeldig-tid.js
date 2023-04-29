@@ -41,12 +41,12 @@ let elever = [
   },
   {
     Tid: "02.05.23 12:15",
-    Navn: "Elisabeth",
+    Navn: "Elisabeth ",
     Rom: "D.2.031 (Fjære)",
   },
   {
     Tid: "05.05.23 08:15",
-    Navn: "Ingeborg",
+    Navn: "Ingeborg ",
     Rom: "A2007",
   },
   {
@@ -56,7 +56,7 @@ let elever = [
   },
   {
     Tid: "05.05.23 08:45",
-    Navn: "Ulrik",
+    Navn: "Ulrik ",
     Rom: "A2007",
   },
   {

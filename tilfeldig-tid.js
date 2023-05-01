@@ -40,11 +40,6 @@ let elever = [
     Rom: "A2007",
   },
   {
-    Tid: "02.05.23 12:15",
-    Navn: "Elisabeth ",
-    Rom: "D.2.031 (Fjære)",
-  },
-  {
     Tid: "05.05.23 08:15",
     Navn: "Ingeborg ",
     Rom: "A2007",
@@ -120,9 +115,13 @@ let elever = [
     Rom: "Klasserom F-bygget",
   },
   {
-    Tid: "31.12.99 08:45",
     Navn: "Sara",
     Rom: "Klasserom F-bygget",
+  },
+  {
+    Tid: "31.12.99 08:45",
+    Navn: "Elisabeth ",
+    Rom: "D.2.031 (Fjære)",
   },
 ];
 

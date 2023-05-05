@@ -120,13 +120,9 @@ let elever = [
     Rom: "Klasserom F-bygget",
   },
   {
+    Tid: "31.12.99 08:45",
     Navn: "Sara",
     Rom: "Klasserom F-bygget",
-  },
-  {
-    Tid: "10.05.23 13:00",
-    Navn: "Elisabeth ",
-    Rom: "D.2.031 (Fjære)",
   },
 ];
 
@@ -254,4 +250,4 @@ function createTable() {
   }
 }
 createTable();
-setInterval(createTable, 10000);
+setInterval(createTable, 5000);

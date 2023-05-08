@@ -92,37 +92,32 @@ let elever = [
   {
     Tid: "10.05.23 13:00",
     Navn: "Elisabeth",
-    Rom: "Klasserom F-bygget",
+    Rom: "Ikke bestemt",
   },
   {
-    Tid: "31.12.99 08:45",
+    Tid: "10.05.23 13:15",
     Navn: "Sivert",
-    Rom: "Klasserom F-bygget",
+    Rom: "Ikke bestemt",
   },
   {
-    Tid: "31.12.99 08:45",
+    Tid: "11.05.23 10:45",
     Navn: "Oline",
-    Rom: "A2007",
+    Rom: "Ikke bestemt",
   },
   {
-    Tid: "31.12.99 08:45",
-    Navn: "Eivind",
-    Rom: "Klasserom F-bygget",
-  },
-  {
-    Tid: "31.12.99 08:45",
-    Navn: "Sindre",
-    Rom: "A2007",
-  },
-  {
-    Tid: "31.12.99 08:45",
+    Tid: "11.05.23 11:00",
     Navn: "Selma",
-    Rom: "Klasserom F-bygget",
+    Rom: "Ikke bestemt",
   },
   {
-    Tid: "31.12.99 08:45",
+    Tid: "11.05.23 11:15",
+    Navn: "Sindre",
+    Rom: "Ikke bestemt",
+  },
+  {
+    Tid: "12.05.23 15:15",
     Navn: "Sara",
-    Rom: "Klasserom F-bygget",
+    Rom: "A.2.012",
   },
 ];
 

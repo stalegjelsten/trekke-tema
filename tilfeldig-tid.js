@@ -92,17 +92,17 @@ let elever = [
   {
     Tid: "11.05.23 10:45",
     Navn: "Oline",
-    Rom: "Ikke bestemt",
+    Rom: "A.2.034",
   },
   {
     Tid: "11.05.23 11:00",
     Navn: "Selma",
-    Rom: "Ikke bestemt",
+    Rom: "A.2.034",
   },
   {
     Tid: "11.05.23 11:15",
     Navn: "Sindre",
-    Rom: "Ikke bestemt",
+    Rom: "A.2.034",
   },
   {
     Tid: "12.05.23 12:00",
